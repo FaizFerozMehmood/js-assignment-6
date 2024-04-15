@@ -41,5 +41,8 @@ for (i = 1; i<=10; i++){
     document.write(i * i+" ")
 }
 //• Write a loop to find and print the smallest element in an array (let's say [3, 7, 2, 9, 5]).
+var arr =[12,13,14,15,16]
+var largestNumber = 0;
+for (var i =  )
 
 
