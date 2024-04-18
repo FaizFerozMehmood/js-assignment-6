@@ -50,18 +50,53 @@
 //     console.log ("other Number")
 // }
 
-var userInput = prompt("enter value")
-if (userInput % 3==0){
-    document.write(`<h1>Hi! This number can be counted as Odd number as it can not be divided by TWO!</h1>`)
-}
-else if (userInput % 2==0 ){
-    document.write(`<h1>HI! This is an EVEN number</h1>`)
-}
+// var userInput = prompt("enter value")
+// if (userInput % 3==0){
+//     document.write(`<h1>Hi! This number can be counted as Odd number as it can not be divided by TWO!</h1>`)
+// }
+// else if (userInput % 2==0 ){
+//     document.write(`<h1>HI! This is an EVEN number</h1>`)
+// }
 
-else if(userInput % 3==1){
-    document.write(`<h1>happy coding reminder 1</h1>`)
+// else if(userInput % 3==1){
+//     document.write(`<h1>happy coding reminder 1</h1>`)
     
-}
-else{
-    document.write(`<h1>HAPPY CODING, Dear FAIZ!</h1>`)
-}
+// }
+// else{
+//     document.write(`<h1>HAPPY CODING, Dear FAIZ!</h1>`)
+// }
+
+
+
+//STRING METHODS PRACTICE IN JAVASCRIPT!
+// var greetings = "helllo";
+// var result= greetings.toUpperCase();
+// console.log(result)
+
+// var char = "faizMAHMOOD";
+// var charRes = char.charAt(3);
+// console.log(charRes)
+
+// var nam ="faiz";
+// console.log(nam[0])
+
+// var firsrName = "faiz";
+// var fullName = "mehmood"
+// var con = firsrName.concat(" ",fullName).toUpperCase()
+// console.log(con)
+
+
+// var num = "                                        faiz   mahmood   ";
+// var result= num.trimStart();
+// console.log(result)
+
+// var num = "      faiz  mahmood  ";
+// var result= num.trim()
+// console.log(result)
+
+// var num = "hello world!";
+// var num2 = num.repeat(2);
+// console.log(num2)
+var userName = " mr faiz mahmood kurovi";
+var userRes = userName.replaceAll("FAIz","fEROZ")
+console.log(userRes)
